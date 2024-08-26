@@ -38,4 +38,12 @@ substitutions:
     
 options:
     substitution_option: 'ALLOW_LOOSE'
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['echo', 'Hello, World!']
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: 'e2-standard-4'
+  serviceAccount: 'cloudbilldsa@cloudbuild-poc-433710.iam.gserviceaccount.com'
 
