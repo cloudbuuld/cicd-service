@@ -44,6 +44,6 @@ steps:
 
 options:
   logging: CLOUD_LOGGING_ONLY
-  machineType: 'e2-standard-4'
+  machineType: 'E2_HIGHCPU_4'
   serviceAccount: 'cloudbilldsa@cloudbuild-poc-433710.iam.gserviceaccount.com'
 
