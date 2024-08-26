@@ -38,9 +38,3 @@ substitutions:
     
 options:
     substitution_option: 'ALLOW_LOOSE'
-    
-options:
-  logging: CLOUD_LOGGING_ONLY
-  #machineType: 'E2_HIGHCPU_4'
-  serviceAccount: 'cloudbilldsa@cloudbuild-poc-433710.iam.gserviceaccount.com'
-
